@@ -11,16 +11,16 @@ simple-pkg --add-flatpak-repo <name> <url> Add a Flatpak repository
 text
 
 ### Examples
+```
 simple-pkg --install firefox
 simple-pkg --update
-simple-pkg --add-flatpak-repo flathub https://flathub.org/repo/flathub.flatpakrepo
-
-text
+simple-pkg --add-flatpak-repo flathub https://flathub.org/repo/flathub.flatpakrepo 
+```
 
 ### Dependencies
 
 - `pacman` (core package manager)
-- `yay` or `paru` (for AUR support)
+- `yay`(for AUR support)
 - `flatpak` (for Flatpak support)
 
 ### Installation
