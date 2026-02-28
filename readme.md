@@ -1,6 +1,6 @@
 ## Simple PKG
 
-Simple PKG is a unified command-line frontend for managing packages from **Pacman**, **AUR** (via `yay` or `paru`), and **Flatpak** repositories.
+Simple PKG is a unified command-line frontend for managing packages from **Pacman**, **AUR** (via `yay`), and **Flatpak** repositories.
 
 ### Usage
 simple-pkg --install <package> Install a package
